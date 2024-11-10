@@ -1,0 +1,110 @@
+body{
+    background-image: url("/Images/SignUp\ Page.png");
+    background-size: 100%;
+}
+/* header section */
+header{
+    grid-template-columns: repeat(2,1fr);
+    display: flex;
+}
+img{
+    width: 150px; height: 40px;
+    margin-left: 120px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/* Style for the dropdown options */
+.language-selection {
+    position: absolute;
+    top: 10px;
+    right: 250px;
+    background-color: rgba(0, 0, 0, 0.75); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#language {
+    width: 150px; 
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px ;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 900px;
+    margin-top: 25px;
+}
+
+#language option {
+    background-color: white;
+    color: black;
+}
+/* Sign In button starts */
+.btn{
+    background-color: red;
+    width: 100px; height: 40px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.btn:hover{
+    box-shadow: 0px 0px 6px red;
+    border: 4px solid red;
+}
+/* text part  */
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 140px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: aliceblue;
+    text-align: center; 
+    font-weight: bold;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+/* End label and button code */
+input{
+    position: relative;
+    left: 500px;
+}
+#email{
+    background-color:rgba(28, 27, 27, 0.75);
+    padding: 20px;
+    border: 1px solid rgb(190, 180, 180);
+    border-radius: 4px;
+    width: 300px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+#email:hover{
+    box-shadow: 0px 0px 6px whitesmoke;
+    border: 4px solid white;
+}
+#btn{
+    background-color: rgb(211, 14, 14);
+    width: 200px; height: 60px;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#btn:hover{
+    box-shadow: 0px 0px 6px whitesmoke;
+    border: 4px solid red;
+}
+/* Completed */
